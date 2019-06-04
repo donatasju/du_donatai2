@@ -1,0 +1,58 @@
+body {
+    padding-top: 3.8rem;
+    color: lightgreen;
+}
+
+.index .content h2::first-letter {
+    text-transform: uppercase;
+}
+
+.form label {
+    width: 350px;
+    display: block;
+    margin: 8px;
+}
+
+.form span {
+    display: block;
+}
+
+.form input {
+    width: 250px;
+}
+
+.error {
+    color: red;
+}
+
+.index {
+    background: url("../images/qbert.png") no-repeat center;
+}
+
+.index .poopwall {
+    opacity: 0.6;
+    background: url("../images/dudonatai.jpg") no-repeat center;
+    border: 1px solid black;
+    position: relative;
+    width: 500px;
+    height: 500px;
+}
+
+.index .pixel {
+    position: absolute;
+    width: 5px;
+    height: 5px;
+}
+
+.add {
+    background: url("../images/pixelsmovie.jpg") no-repeat center;
+}
+
+.index, .index .poopwall, .add {
+    background-size: cover;
+}
+
+.clear {
+    background: url("../images/shit.png") no-repeat bottom;
+    background-size: contain;
+}
